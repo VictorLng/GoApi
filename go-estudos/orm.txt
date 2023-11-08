@@ -1,0 +1,2 @@
+orm: oque é?
+uma forma de usar um banco de dados usando oop
