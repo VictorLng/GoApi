@@ -1,7 +1,7 @@
 package entities
 
 import (
-	"github.com/google/uuid"
+	"github.com/pborman/uuid"
 )
 
 type Tweet struct {
@@ -11,7 +11,7 @@ type Tweet struct {
 
 func NewTweet() *Tweet {
 	tweet := Tweet{
-		ID: uuid.New().String(),
+		ID: uuid.New(),
 	}
 
 	return &tweet
